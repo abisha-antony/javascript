@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        let day = [ 'sun','mon','tue','wed','thur','fri','sat'];
+        document.write(day);
+        let check = prompt("Enter your value");
+        console.log(check); 
+        if(day.includes(check)){
+            console.log("Array contains this value")
+        }
+        else{
+            console.log("Array does not contains this value")
+        }
+    </script>
+    
+</body>
+</html>

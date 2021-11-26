@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        let array1 = ["pen","pencil","eraser",1,2,3,];
+        let array2 = [1,2,3,"pen","eraser",];
+        let mergedarray = array1.concat(array2);
+        document.write(mergedarray);
+        document.write("<br>");
+        let newarray = [...new Set(mergedarray)];
+        document.write(newarray);
+    </script>
+</body>
+</html>
